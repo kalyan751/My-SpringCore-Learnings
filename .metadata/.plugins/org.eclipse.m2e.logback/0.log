@@ -2423,3 +2423,7 @@
 2024-08-01 14:42:47,737 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java Programming files for eclipse\eclipse-workspace-spring\09_SpringRealTimeDI-App\src\main\resources
 2024-08-01 14:42:47,739 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-08-01 14:42:47,740 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java Programming files for eclipse\eclipse-workspace-spring\09_SpringRealTimeDI-App\src\test\resources
+2024-08-01 15:20:30,175 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-01 15:20:30,175 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java Programming files for eclipse\eclipse-workspace-spring\09_SpringRealTimeDI-App\src\main\resources
+2024-08-01 15:20:30,176 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-08-01 15:20:30,176 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Java Programming files for eclipse\eclipse-workspace-spring\09_SpringRealTimeDI-App\src\test\resources
