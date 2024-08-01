@@ -1,0 +1,11 @@
+package in.pwskills.kalyan.dao;
+
+public class CustomerDaoImpl implements ICustomerDao {
+
+	@Override
+	public int insert(CustomerBO bo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,6 @@
+package in.pwskills.kalyan.controller;
+
+@Component(name = "controller")
+public class CustomerController {
+
+}

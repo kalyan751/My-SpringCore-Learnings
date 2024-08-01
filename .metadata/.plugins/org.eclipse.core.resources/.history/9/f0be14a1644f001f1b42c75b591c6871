@@ -1,0 +1,18 @@
+package in.pwskills.kalyan.service;
+
+import org.springframework.stereotype.Component;
+
+import in.pwskills.kalyan.beans.CustomerDTO;
+
+@Component("service")
+public final class CustomerServiceImpl implements ICustomerService {
+	
+	//Service Layer needs to communijcate with the Dao object
+
+	@Override
+	public String calculateSimpleInterese(CustomerDTO dto) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

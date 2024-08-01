@@ -1,0 +1,35 @@
+package in.pwskills.kalyan.bean;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+//User defined type
+public class WishMessageGenerator {
+	
+	static {
+		System.out.println("WishMessageGenerator.class file is  loading...");
+	}
+	
+	// inbuilt type - HAS A relationship
+	private LocalDateTime ldt ;
+	
+	public String WidhMessage(String user) {
+		int hour = ldt.getHour();
+		
+		String msg = "";
+		
+		if(hour < 12) {
+			msg += "GoodMorning :: " + user;
+		}else if(hour < 16) {
+			msg += "Good AfterNoon :: " + user;
+		}else if(hour < 20) {
+			msg += "Good Evening :: " + user;
+		}else {
+			msg += "Good Night :: " + user;
+		}
+		return msg;
+	}
+	
+	
+	
+}

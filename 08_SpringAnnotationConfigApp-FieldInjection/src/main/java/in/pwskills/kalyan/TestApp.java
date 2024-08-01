@@ -1,0 +1,41 @@
+package in.pwskills.kalyan;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+
+import in.pwskills.kalyan.beans.Flipkart;
+import in.pwskills.kalyan.config.AppConfig;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		//creating the object for AnnotationConfigApplicationContext(AppConfig.class)
+		
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class); // where our configuration file is present ? Ans : AppConfig.class
+		
+		//asking the container to get the names of the beans
+		String[] definitionNames = context.getBeanDefinitionNames();
+		
+		//System.out.println(definitionNames);
+		
+		for(String beanName : definitionNames) {
+			System.out.println(beanName);
+		}
+		
+		
+		//Telling container bring me the object created form the bean
+		
+		Flipkart flipkart = context.getBean("flipkart",Flipkart.class);
+		
+		//calling the method from Flipkart class
+		String status = flipkart.shopping(new String[] {"fossil Watch","lp Belts","Arrow Shoes"}, new float[] {56700.5f,3500.5f,4500.05f});
+		System.out.println(status);
+		
+		
+		//closing the container
+		((AbstractApplicationContext)context).close();
+		
+
+	}
+
+}

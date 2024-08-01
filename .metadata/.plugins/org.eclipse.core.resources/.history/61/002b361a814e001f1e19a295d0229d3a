@@ -1,0 +1,41 @@
+
+//part where we are dealing with the IOC container.
+
+//for constructor injection first the dependent object should be created then the target object should be created
+package in.pwskills.kalyan.config;
+
+
+import java.time.LocalDateTime;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+
+
+@Configuration
+@ComponentScan(basePackages = "in.pwskills.kalyan")
+public class AppConfig { 
+	static {
+		System.out.println("AppConfig.class file is loading...");
+	}
+	
+	public AppConfig() {
+		System.out.println("AppConfig :  object is created...");
+	}
+	
+	
+	@Bean(name="ldt")
+	public LocalDateTime dtObj() {
+		System.out.println("AppConfig.dtObj()");
+		return LocalDateTime.now();
+	}
+	
+
+	
+
+		
+	}
+	
+	
+

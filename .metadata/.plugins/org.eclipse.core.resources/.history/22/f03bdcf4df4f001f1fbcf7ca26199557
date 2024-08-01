@@ -1,0 +1,39 @@
+package in.pwskills.kalyan.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import in.pwskills.kalyan.beans.CustomerBO;
+
+@Component("dao")
+public final class CustomerDaoImpl implements ICustomerDao {
+	
+	//INJECTING Datasource object in the Dao Layer and we need to bind it
+	/*NOTE => at this moment in IOC cache no object is present so to link 
+	it using AutoWired we need to create a bean and then using pure java format we need to tell IOC container to create the object 
+	using only @AutoWired wont work in the background we will have to tell the IOC container to create the object of the datasource bean*/
+	@Autowired
+	private DataSource dataSource;
+
+	@Override
+	public int insert(CustomerBO bo) {
+		
+		//System.out.println(dataSource);
+		
+		//Writing ourt business logic
+		try(Connection connection = dataSource.getConnection();){
+			connection.prepareStatement(SQL_INSERT_QUERY)
+		}catch(SQLException e) {
+			e.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return 0;
+	}
+
+}

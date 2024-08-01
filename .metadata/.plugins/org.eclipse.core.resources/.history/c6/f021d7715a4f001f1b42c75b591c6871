@@ -1,0 +1,8 @@
+package in.pwskills.kalyan.controller;
+
+import org.springframework.stereotype.Component;
+
+@Component(name = "controller")
+public class CustomerController {
+
+}

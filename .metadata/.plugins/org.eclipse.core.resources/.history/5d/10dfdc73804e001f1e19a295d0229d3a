@@ -1,0 +1,11 @@
+package in.pwskills.kalyan.bean;
+
+public class DTDC implements ICourier {
+
+	@Override
+	public String deliveryOrder(Integer oid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

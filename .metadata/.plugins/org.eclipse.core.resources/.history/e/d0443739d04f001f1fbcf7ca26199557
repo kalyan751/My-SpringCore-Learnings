@@ -1,0 +1,42 @@
+package in.pwskills.kalyan;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.AbstractApplicationContext;
+
+
+import in.pwskills.kalyan.config.AppConfig;
+import in.pwskills.kalyan.controller.CustomerController;
+
+public class TestApp {
+
+	public static void main(String[] args) {
+		//creating the object for AnnotationConfigApplicationContext(AppConfig.class)
+		
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class); // where our configuration file is present ? Ans : AppConfig.class
+		
+		//getting the names of the Beans
+		String[] names = context.getBeanDefinitionNames();
+		
+		//using forEach loop to print the names
+		for(String beanName : names ) {
+			System.out.println(beanName);
+		}
+		
+		//asking the IOC Container get the object of controller that we created using the @bean
+		try {
+			
+			CustomerController controller = context.getBean("controller",CustomerController.class);
+			System.out.println("Printing controller object :: " + controller);
+			
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
+		
+		//closing the container
+		((AbstractApplicationContext)context).close();
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=01_SpringJavaConfigApp/C:\/Users\/KALYAN JHA\/.m2\/repository\/org\/springframework\/spring-context\/5.2.25.RELEASE\/spring-context-5.2.25.RELEASE.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-context=/=/maven.version=/5.2.25.RELEASE=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.context(ApplicationContext.class[ApplicationContext" modifiers="1537" timestamp="1689236081000"/>
+    <typeInfo handle="=06_SpringAnnotationConfigApp-FieldInjection\[ReferenceType-MultipleType\]/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.pwskills.kalyan.bean{ICourier.java[ICourier" modifiers="513" timestamp="1722349619335"/>
+    <typeInfo handle="=07_SpringAnnotationConfigApp-FieldInjection\[ReferenceType-PreDefined/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.pwskills.kalyan.dao{IEmployeeDao.java[IEmployeeDao" modifiers="513" timestamp="1722356907362"/>
+    <typeInfo handle="=08_SpringAnnotationConfigApp-FieldInjection/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.pwskills.kalyan.beans{ICourier.java[ICourier" modifiers="513" timestamp="1722414888374"/>
+    <typeInfo handle="=09_SpringRealTimeDI-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.pwskills.kalyan.service{ICustomerService.java[ICustomerService" modifiers="513" timestamp="1722443987431"/>
+    <typeInfo handle="=09_SpringRealTimeDI-App/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;in.pwskills.kalyan.dao{ICustomerDao.java[ICustomerDao" modifiers="513" timestamp="1722444599794"/>
+</typeInfoHistroy>

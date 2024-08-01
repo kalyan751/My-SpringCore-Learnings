@@ -1,0 +1,17 @@
+package in.pwskills.kalyan.beans;
+
+//in DTO the instance properties will be in their respective types 
+public class CustomerDTO {
+	private String custName;
+	private String custAddr;
+	private Float pamt;
+	private Float rate;
+	private Float time;
+	@Override
+	public String toString() {
+		return "CustomerDTO [custName=" + custName + ", custAddr=" + custAddr + ", pamt=" + pamt + ", rate=" + rate
+				+ ", time=" + time + "]";
+	}
+	
+	
+}

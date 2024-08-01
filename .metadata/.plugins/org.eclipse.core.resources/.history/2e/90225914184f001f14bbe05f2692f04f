@@ -1,0 +1,10 @@
+package in.pwskills.kalyan.beans;
+
+import org.springframework.stereotype.Component;
+
+
+//this is our Target object
+@Component
+public class Flipkart {
+	private ICourier courier;
+}

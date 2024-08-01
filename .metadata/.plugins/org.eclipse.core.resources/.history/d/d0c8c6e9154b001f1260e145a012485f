@@ -1,0 +1,9 @@
+package in.pwskills.kalyan.bean;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class WishMessageGenerator {
+	
+	private LocalDateTime ldt ;
+}

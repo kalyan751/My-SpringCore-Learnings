@@ -1,0 +1,24 @@
+package in.pwskills.kalyan.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import in.pwskills.kalyan.beans.CustomerDTO;
+import in.pwskills.kalyan.dao.CustomerDaoImpl;
+import in.pwskills.kalyan.dao.ICustomerDao;
+
+@Component("service")
+public final class CustomerServiceImpl implements ICustomerService {
+	
+	//Service Layer needs to communijcate with the Dao object (need to perform field injection by using @AutoWired)
+	
+	@Autowired
+	private ICustomerDao dao; 
+
+	@Override
+	public String calculateSimpleInterese(CustomerDTO dto) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,19 @@
+package in.pwskills.kalyan.dao;
+
+import org.springframework.stereotype.Component;
+
+import in.pwskills.kalyan.beans.CustomerBO;
+
+@Component("dao")
+public final class CustomerDaoImpl implements ICustomerDao {
+	
+	//INJECTING Datasource object in the Dao Layer
+	private DataSource dataSource;
+
+	@Override
+	public int insert(CustomerBO bo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

@@ -1,0 +1,22 @@
+package in.pwskills.kalyan.bean;
+
+import java.io.Serializable;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class Employee implements Serializable {
+	
+	private static final long serialVersionUID = 1L;
+	
+	//primitive variable
+	private int eid;
+	private float salary;
+	
+	//collection variable 
+	private List<String> friends;
+	private Set<String> phoneNumbers;
+	private Map<String,String> accountNumbers;
+	
+	
+}

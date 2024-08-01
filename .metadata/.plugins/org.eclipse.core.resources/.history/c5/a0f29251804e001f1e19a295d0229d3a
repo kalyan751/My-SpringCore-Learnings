@@ -1,0 +1,8 @@
+package in.pwskills.kalyan.bean;
+
+public class Flipkart {
+	
+	@AutoWired
+	private ICourier courier;
+	
+}	

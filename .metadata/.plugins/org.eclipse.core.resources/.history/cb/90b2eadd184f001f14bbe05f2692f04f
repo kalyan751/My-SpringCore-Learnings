@@ -1,0 +1,16 @@
+package in.pwskills.kalyan.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Ekart implements ICourier {
+	static {
+		System.out.println("Ekart.class file is loading");
+	}
+	@Override
+	public String deliver(int oid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

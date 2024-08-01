@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.config.AppConfig"/>
+    <fullyQualifiedTypeName name="org.springframework.cglib.core.Local"/>
+    <fullyQualifiedTypeName name="org.springframework.format.datetime.joda.LocalDateTimeParser"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.bean.Employee"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.bean.WishMessageGenerator"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.bean.Flipkart"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.dao.EmployeeMySQLDaoImpl"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.beans.ICourier"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Primary"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.beans.Flipkart"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.controller.CustomerController"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.beans.CustomerVO"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.beans.CustomerBO"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="javax.sql.DataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.jdbc.datasource.DriverManagerDataSource"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.PropertySource"/>
+    <fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.dao.CustomerDaoImpl"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.dao.ICustomerDao"/>
+    <fullyQualifiedTypeName name="in.pwskills.kalyan.service.ICustomerService"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+</qualifiedTypeNameHistroy>

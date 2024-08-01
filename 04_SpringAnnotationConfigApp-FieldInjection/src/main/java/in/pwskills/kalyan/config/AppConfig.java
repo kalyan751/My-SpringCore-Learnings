@@ -1,0 +1,35 @@
+
+//part where we are dealing with the IOC container.
+
+//for constructor injection first the dependent object should be created then the target object should be created
+package in.pwskills.kalyan.config;
+
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+
+
+//telling the IOC container about configuration file denoting with annotation @Configuration
+@Configuration
+@ComponentScan(basePackages = "in.pwskills.kalyan") // please search for the componet in the base package 
+public class AppConfig { 
+	static {
+		System.out.println("AppConfig.class file is loading...");
+	}
+	
+	public AppConfig() {
+		System.out.println("AppConfig :  object is created...");
+	}
+	
+	//telling the IOC container that this is a bean please execute the bean by using @Bean
+	
+	
+	
+		
+		
+		
+	}
+	
+	
+

@@ -1,0 +1,14 @@
+package in.pwskills.kalyan.dao;
+
+import org.springframework.stereotype.Component;
+
+@Component(value = "MySqlDao")
+public class EmployeeMySQL2DaoImpl implements IEmployeeDao {
+
+	@Override
+	public void getConnection() {
+		
+		
+	}
+	
+}
